@@ -1,25 +1,7 @@
-# Homicide Case Status Prediction
+# Homicide Case Information Exploration and Inference
 
-Predicting the status of homicide cases after some days, based on data from data collected by the Washington Post on homicides from 2007 to 2017, found at https://www.kaggle.com/datasets/joebeachcapital/homicides.
+Predicting the status of homicide cases after some days, based on data from data collected by the Washington Post on homicides from 2007 to 2017, found at https://www.kaggle.com/datasets/joebeachcapital/homicides, as well as data from [Murder Accountability Project](https://www.murderdata.org/p/data-docs.html), dowloaded September 19, 2023.
 
-## Outline
+### Chapter 1
 
-1. Summary (abstract)
-2. Problem statement (introduction)
-3. Data information
-4. Data splitting
-5. Data quality checks and transformations
-6. EDA
-    - Traditional
-    - Clustering
-7. Machine learning task outline
-8. Data preparation for ML
-    - Create preprocessing pipeline
-9. Selection and training of models
-    - DecisionTreeClassifier
-    - RandomForestClassifier ?
-    - GradientBoostingClassifier
-    - CategoricalNaiveBayesClassifier
-10. Predictions (results)
-11. Discussion
-12. Conclusion
+In chapter 1, we gather the data and clean and preprocess it for further investigation. Specifically, we compare how the information represented in each dataset differs, and evaluate the difficulty in combining them.
