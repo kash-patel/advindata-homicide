@@ -1,6 +1,6 @@
 # Custom
-data/	# Data folder
-__**	# Hidden filles will be denoted by leading dunders
+data/
+__**
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
